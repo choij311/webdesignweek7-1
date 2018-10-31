@@ -1,0 +1,100 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+/*Note that this approach is no longer recommended. Use a reset.css file instead.*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    font-family: 'Prata', serif;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width:1200px;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Prata', serif;
+    font-size: 250%;
+    background-color: ghostwhite;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    min-height: 530px;
+    padding-left: 34px;
+    padding-right: 30px;
+}
+
+nav ul {
+    font-family: 'Prata', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 200%
+    list-style-type: none;
+    text-align: center;
+
+}
+
+
+nav li {
+    font-family: 'Prata', serif;
+    color: black;
+    text-decoration: none;
+    display:inline-block; 
+    margin: 1.5em 0;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black
+}
+
+link {
+    font-family: 'Prata', serif;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-links:visited {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+  
+}
+
+footer {
+    font-size: 80%
+    background-color: whitesmoke;
+    text-align: center;
+    min-height: 70px;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 2.1875em;
+    padding: 75px 25px 25px 15px;
+}
